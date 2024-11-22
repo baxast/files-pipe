@@ -5,10 +5,7 @@ import type Interface from "../Interface/Pipe.js";
  *
  */
 export default (async (
-	...[
-		Plan,
-		{ Accomplished, Changed, Failed, Fulfilled, Passed, Read, Wrote },
-	]
+	...[Plan, { Accomplished, Changed, Failed, Fulfilled, Passed, Read, Wrote }]
 ) => {
 	for (const [_Output, _Input] of Plan.Results) {
 		Plan.On.Input = _Input;
