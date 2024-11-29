@@ -6,5 +6,6 @@
  */
 export default interface Interface {
 	Search: string | URL;
+
 	Folder: string | URL;
 }

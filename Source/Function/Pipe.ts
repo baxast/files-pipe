@@ -9,6 +9,7 @@ export default (async (
 ) => {
 	for (const [_Output, _Input] of Plan.Results) {
 		Plan.On.Input = _Input;
+
 		Plan.On.Output = _Output;
 
 		try {
@@ -16,6 +17,7 @@ export default (async (
 
 			if (Read && Wrote) {
 				Plan.On.Buffer = await Read(Plan.On);
+
 				Plan.On.Buffer = await Wrote(Plan.On);
 
 				if (!Plan.On.Buffer) {
