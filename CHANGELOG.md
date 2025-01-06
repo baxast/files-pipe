@@ -1,5 +1,31 @@
 ## 0.1.2
 
+### Changed
+
+- Updated `@types/node` from 22.5.0 to 22.10.5
+- Updated `deepmerge-ts` from 7.1.0 to 7.1.3
+- Updated `fast-glob` from 3.3.2 to 3.3.3
+- Updated `@playform/build` from 0.1.4 to 0.2.1
+- Minor code formatting changes
+
+### Added
+
+- Added `Interface` type imports to multiple files.
+- Added a `DEPENDENTS.md` file to track dependent repositories.
+- Updated `.npmignore` to exclude `docs/` directory.
+- Added badges for dependents to `DEPENDENTS.md`.
+- Updated `README.md` to remove the summary section and point to `CHANGELOG.md`
+  for change history.
+- Updated `package.json` author information:
+    - Changed author email from `Source/Open@PlayForm.Cloud` to
+      `Source/Open@PlayForm.LTD`
+    - Changed author URL from `HTTPS://PlayForm.Cloud` to `HTTPS://PlayForm.LTD`
+
+### Removed
+
+- Removed `Summary.md` file.
+- Removed `Documentation/` directory.
+
 ## 0.1.1
 
 ### Changed
