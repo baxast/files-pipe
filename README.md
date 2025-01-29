@@ -3,7 +3,7 @@
 `Pipe` allows you to process files in a pipeline, making it easy to perform
 various operations on them.
 
-### 🚀 Installation
+### Installation 🚀
 
 To get started with `Pipe`, follow these steps:
 
