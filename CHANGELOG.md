@@ -1,6 +1,6 @@
 ## 0.1.2
 
-### Changed
+### Change
 
 - Updated `@types/node` from 22.5.0 to 22.10.5
 - Updated `deepmerge-ts` from 7.1.0 to 7.1.3
@@ -8,7 +8,7 @@
 - Updated `@playform/build` from 0.1.4 to 0.2.1
 - Minor code formatting changes
 
-### Added
+### Add
 
 - Added `Interface` type imports to multiple files.
 - Added a `DEPENDENTS.md` file to track dependent repositories.
@@ -28,20 +28,20 @@
 
 ## 0.1.1
 
-### Changed
+### Change
 
 - Updated `@types/node` from 20.14.12 to 22.5.0
 - Updated `@playform/build` from 0.1.2 to 0.1.4
 - Minor code formatting changes
 
-### Added
+### Add
 
 - Added `.npmignore` file to exclude unnecessary files from the published
   package.
 
 ## 0.1.0
 
-### Changed
+### Change
 
 - Updated version to 0.1.0
 - Updated dependencies, including `@types/node`, `deepmerge-ts`, and
@@ -49,13 +49,13 @@
 - Updated README.md with simplified language and improved formatting.
 - Refactored code for better readability and consistency.
 
-### Added
+### Add
 
 - Added `Run` script to `package.json` for easier development workflow.
 
 ## 0.0.6
 
-### Changed
+### Change
 
 - Updated version to 0.0.6
 - Updated dependencies:
@@ -63,13 +63,13 @@
     - `deepmerge-ts` to 7.0.3
 - Moved `@playform/build` from `devDependencies` to `peerDependencies`.
 
-### Added
+### Add
 
 - Added more detailed usage examples in README.md.
 
 ## 0.0.5
 
-### Changed
+### Change
 
 - Updated version to 0.0.5
 - Updated dependencies:
@@ -81,7 +81,7 @@
 
 ## 0.0.4
 
-### Changed
+### Change
 
 - Updated version to 0.0.4
 - Updated dependencies:
@@ -90,13 +90,13 @@
 - Moved `@playform/build` from `devDependencies` to `peerDependencies` and
   marked it as optional.
 
-### Added
+### Add
 
 - Added `Document` script to package.json
 
 ## 0.0.3
 
-### Changed
+### Change
 
 - Updated version to 0.0.3
 - Updated dependencies:
@@ -108,18 +108,18 @@
 - Updated README.md with new repository links.
 - Updated code to use `@Function` prefix for imports.
 
-### Added
+### Add
 
 - Added `javascript` and `playform` keywords to `package.json`.
 
 ## 0.0.2
 
-### Changed
+### Change
 
 - Updated version to 0.0.2.
 - Added the `Document` script to `package.json`.
 
-### Added
+### Add
 
 - Added `@playform/document` as a dependency.
 
