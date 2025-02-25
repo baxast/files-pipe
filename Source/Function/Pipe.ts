@@ -27,21 +27,21 @@ export default (async (
 				if (Passed && (await Passed(Plan.On))) {
 					try {
 						await (
-							await import("fs/promises")
+							await import("node:fs/promises")
 						).access(
 							dirname(Plan.On.Output),
-							(await import("fs/promises")).constants.W_OK,
+							(await import("node:fs/promises")).constants.W_OK,
 						);
 					} catch (_Error) {
 						await (
-							await import("fs/promises")
+							await import("node:fs/promises")
 						).mkdir(dirname(Plan.On.Output), {
 							recursive: true,
 						});
 					}
 
 					await (
-						await import("fs/promises")
+						await import("node:fs/promises")
 					).writeFile(Plan.On.Output, Plan.On.Buffer, "utf-8");
 
 					Plan.On.After = (await stat(Plan.On.Output)).size;
@@ -87,6 +87,6 @@ export default (async (
 	return Plan;
 }) satisfies Interface as Interface;
 
-export const { dirname } = await import("path");
+export const { dirname } = await import("node:path");
 
-export const { stat } = await import("fs/promises");
+export const { stat } = await import("node:fs/promises");

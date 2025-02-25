@@ -14,7 +14,7 @@ export default {
 	Action: {
 		Read: async ({ Input }) =>
 			await (
-				await import("fs/promises")
+				await import("node:fs/promises")
 			).readFile(Input, {
 				encoding: "utf-8",
 			}),
